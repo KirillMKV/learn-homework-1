@@ -16,11 +16,17 @@
 """
 
 def main():
-    """
-    Эта функция вызывается автоматически при запуске скрипта в консоли
-    В ней надо заменить pass на ваш код
-    """
-    pass
+  str1, str2 = input(), input()
+  if type(str1) != str or type(str2) != str:
+    print(0)
+  elif str1 == str2:
+    print(1)
+  elif len(str1)>len(str2):
+    print(2)
+  elif str2 =='learn':
+    print(3)
+  
+
     
 if __name__ == "__main__":
     main()
