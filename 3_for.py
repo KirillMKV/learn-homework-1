@@ -16,7 +16,6 @@
 * Посчитать и вывести среднее количество продаж всех товаров
 """
 
-from re import S
 from statistics import mean
 
 

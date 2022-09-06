@@ -25,6 +25,7 @@ def main():
     print(2)
   elif str2 =='learn':
     print(3)
+  return
   
 
     

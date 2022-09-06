@@ -12,13 +12,14 @@
 
 def hello_user():
     
-    try:
-      while input('How are you?    ') != 'Fine':
-        continue
+  while input('How are you?    ') != 'Fine':
+    try:   
+        continue   
 
     except KeyboardInterrupt:
       print ('', 'Enough!', sep='\n')
-
+    
+    break   
 
 if __name__ == "__main__":
     hello_user()
