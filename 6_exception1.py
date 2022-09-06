@@ -11,15 +11,17 @@
 """
 
 def hello_user():
-    
-  while input('How are you?    ') != 'Fine':
+  answer = ''  
+  while answer != 'Fine':
     try:   
-        continue   
+        print ('How are you?')
+        v = input()   
 
     except KeyboardInterrupt:
       print ('', 'Enough!', sep='\n')
+      break
     
-    break   
+       
 
 if __name__ == "__main__":
     hello_user()
